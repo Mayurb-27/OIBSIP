@@ -1,0 +1,119 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+  /* Set background color and font styles */
+body {
+    background-color: #dea03c; /* Light yellow */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: #331212;
+}
+
+  /* Header Styles */
+#title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+#line{
+    width: 25%;
+    border: none;
+    border-top: 2px solid #542323;
+    margin: 10px auto;
+}
+
+#ph1 {
+    text-align: center;
+    font-size: 20px;
+    color: #4d3814; /* Light orange */
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+#img-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+#image:hover {
+    transform: scale(1.05);
+    transition: transform .4s ease;
+}
+
+#img_caption {
+    text-align: center;
+    font-size: 17px;
+    color: #472303;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Tribute Content Styles */
+#tribute_info {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-color: #e8cda1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    line-height: 1.8;
+}
+
+#head {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+/* Footer Styles */
+#footer {
+    text-align: center;
+    font-size: 20px;
+    color: #442404;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Horizontal Rule Styles */
+hr {
+    width: 40%;
+    border: none;
+    border-top: 1px solid #542323;
+    margin: 20px auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #main {
+        margin: 0;
+    }
+    #title {
+        font-size: 28px;
+    }
+    #ph1 {
+        font-size: 16px;
+    }
+    #img-caption {
+        font-size: 12px;
+    }
+    #tribute-info {
+        font-size: 14px;
+    }
+    #footer {
+        font-size: 18px;
+    }
+}
