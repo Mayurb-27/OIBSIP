@@ -1,0 +1,90 @@
+body{
+  font-family: cursive;
+  background-image: linear-gradient(to right, rgb(0, 229, 255) , rgb(0, 55, 255));
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  max-width: 700px;
+  margin: 70px auto;
+  padding: 20px;
+  background-color: rgb(116, 204, 224);
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px 5px rgba(1, 98, 105, 0.7);
+  text-align: center;
+  padding-bottom: 40.7px;
+}
+
+input[type="text"]{
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: aqua;
+}
+
+h1{
+  text-align: center;
+}
+
+#taskInput{
+  padding: 12.7px 23px 13px 23px;
+  margin-right: none;
+  background-color: #008395;
+  color: beige;
+  border-color: #008395;
+}
+
+input[type="text"]::placeholder{
+  color: #bcd6e5;
+  font-family: cursive; /* Change to the desired color */
+}
+
+button{
+  padding: 10.5px 23px 13px 23px;
+  margin-left: -10px;
+  background-color: #0460b1;
+  color: rgb(228, 241, 246);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+button:hover{
+  background-color: #06b7ed;
+  color: #0c0c0c;
+}
+
+.task-section{
+  margin-bottom: -30px;
+  padding: 13px 22px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px none;
+  background-color: #1388b7;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.completed-task{
+  text-decoration: line-through;
+  opacity: 0.6;
+  padding-left: 10px;
+}
+
+.delete-button{
+  background-color: #0460b1;
+}
