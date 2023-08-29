@@ -1,0 +1,95 @@
+body{
+    background-image: url(pic.jpg);
+    background-position: fixed center;
+    background-size: cover;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.card {
+    margin-top: 10%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+.card-header{
+    background-color: #116202;
+    color: #ffffff;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+#loginForm{
+    background-color: #628f5a;
+}
+
+.custom-field{
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.custom-field input{
+    padding: 12px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1.5px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: #628f5a;
+}
+
+.custom-field .placeholder{
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    background-color: #628f5a;
+    color: #ffffff;
+    transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.custom-field input:valid + .placeholder,
+.custom-field input:focus + .placeholder{
+    top: 21px;
+    font-size: 10px;
+    color: #222;
+    padding: 5px;
+    background: #628f5a;
+}
+
+.btn-primary{
+    background-color: #1a9405;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-primary:hover{
+    background-color: rgb(156, 226, 203);
+    color: black;
+    transform: scale(1.15);
+}
+
+.btn-secondary{
+    background-color: #1a9405;
+    color: white;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(156, 226, 203);
+    color: black;
+    transform: scale(1.15);
+}
+
+.btn-danger{
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.btn-danger:hover{
+    transform: scale(1.15);
+    background-color: rgb(220, 212, 212);
+    color: black;
+}
