@@ -1,4 +1,4 @@
-# OIBSIP
+# OasisInfobyte Internship
 Welcome to my Oasis Infobyte internship repository! This repository contains four Web Development Projects that I worked on during my internship at Oasis Infobyte. Each project showcases different aspects of Web Developing.
 
 # Calculator
